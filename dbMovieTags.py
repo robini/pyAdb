@@ -69,7 +69,7 @@ def printList(infolist,f):
 def main():
 	
 	f = open("./testt","w")
-	url_start = 'https://movie.douban.com/people/chioich/collect?start='
+	url_start = 'https://movie.douban.com/people/id?/collect?start='
 	url_end = '&sort=time&rating=all&filter=all&mode=grid'
 	depth = 1
 	infolist = []
